@@ -1,0 +1,18 @@
+# BA-MSAT-Net reproducible Python environment
+# Recommended Python version: 3.9 or 3.10
+#
+# PyTorch and TorchVision are pinned to an officially compatible pair.
+# For a CUDA-specific installation, select the wheel matching the local CUDA
+# environment from https://pytorch.org/get-started/previous-versions/.
+
+# Core BA-MSAT-Net training and inference
+torch==1.13.1
+torchvision==0.14.1
+numpy==1.23.5
+nibabel==5.1.0
+tensorboard==2.12.3
+
+# Image handling and detection utilities included in this repository
+Pillow==9.5.0
+opencv-python==4.8.1.78
+pycocotools==2.0.7
