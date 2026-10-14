@@ -1,24 +1,26 @@
-# BA‑MSAT‑Net requirements.txt
-# Python >=3.9, PyTorch >=1.10
-# CUDA version please match your local environment
+# BA-MSAT-Net Dependencies
+# Fully aligned with the paper's environment specification
+# Python >= 3.9, PyTorch >= 1.10
+# Recommended CUDA versions: 11.3 / 11.7
 
+# Core deep learning framework
 torch>=1.10.0
 torchvision>=0.11.0
+
+# Medical image I/O and numerical processing
 nibabel>=3.2.0
 numpy>=1.21.0
-tensorboard>=2.8.0
-
-# data processing & io
 scipy>=1.8.0
 SimpleITK>=2.1.0
 pyyaml>=6.0
 
-# metrics & evaluation
+# Segmentation metrics and utilities
 monai>=0.9.0
-scikit‑learn>=1.0.0
+scikit-learn>=1.0.0
 
-# visualization
+# Experiment logging and visualization
+tensorboard>=2.8.0
 matplotlib>=3.5.0
 
-# optional: progress bar
+# Progress display
 tqdm>=4.64.0
